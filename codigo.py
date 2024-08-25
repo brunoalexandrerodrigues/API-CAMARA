@@ -62,3 +62,4 @@ else:
     st.markdown('---')
     st.subheader('Total de Despesas do Partido')
     st.markdown(f'<h2 style="color:red;">R${total_despesas_partido:.2f}</h2>', unsafe_allow_html=True)
+streamlit run API-CAMARA.py
